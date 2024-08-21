@@ -1,0 +1,28 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #e9041e, #000000); /* Red to Black gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.header-title {
+  color: white; /* White text color for the header */
+  font-size: 60px; /* Font size for the header */
+  text-align: center; /* Center align the text */
+  margin-top: 5vh; /* Space from the top of the viewport */
+  margin-bottom: 20px; /* Space between header and chatbot */
+}
+
+.chatbot-container {
+  background-color: white; /* White background for the chatbot */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  padding: 20px; /* Padding inside the chatbot container */
+  max-width: 400px; /* Maximum width for the chatbot */
+  width: 100%; /* Responsive width */
+}
